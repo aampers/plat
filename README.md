@@ -6,6 +6,7 @@ A physics-based platformer game project built for the PICO-8 fantasy console. Th
 - **Player Movement**: Move left and right using the arrow keys.
 - **Jumping**: Press 🅾️ (Z key) to jump.
 - **Gravity**: The player is affected by gravity, making them fall when not grounded.
+- **Tilemap-Based Collision**: The player interacts with a tile-based map, colliding with solid tiles.
 
 ## Controls
 - **⬅️ / ➡️**: Move left and right.
@@ -15,6 +16,8 @@ A physics-based platformer game project built for the PICO-8 fantasy console. Th
 The following core systems have been implemented:
 1. **Player Movement**: Horizontal and vertical movement with velocity.
 2. **Gravity**: Affects the player when not grounded.
+3. **Collision Detection**: The player lands on solid tiles without overlapping them.
+4. **Tilemap Rendering**: A simple map with a solid floor is rendered as the game world.
 
 ## Setup
 1. Open PICO-8.
@@ -22,7 +25,6 @@ The following core systems have been implemented:
 3. Press `CTRL+R` to run the game.
 
 ## Next Steps
-- Introduce a basic tilemap
 - Add  collision handling (e.g., ceilings, walls).
 - Introduce platforms and interactive objects.
 - Expand the tilemap to create a proper level.
